@@ -1,4 +1,4 @@
-word = "amma"
+word = "amima"
 
 def check_palindrom(word):
     l = len(word)
