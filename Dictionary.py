@@ -41,3 +41,13 @@ def set_grade(students):
     return students
 
 print(set_grade(students))
+
+
+def find_total_marks(students):
+    total_marks = 0
+    for student in students:
+        total_marks += student['marks']
+        
+    return total_marks
+
+print(find_total_marks(students))
