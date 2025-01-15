@@ -8,9 +8,9 @@ def lengthOfLongestSubstring(s):
             char_set.remove(s[left])
             left += 1
         char_set.add(s[right])
-        print("left", left, "right", right)
+
         max_length = max(max_length, right - left + 1)
-        print(max_length, "max_length")
+    
     return max_length
 
 print(lengthOfLongestSubstring("abaabacc"))
