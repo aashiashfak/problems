@@ -18,4 +18,4 @@ def find_overlaps (intervals):
     overlaps.append([start, end])
     return overlaps
 
-print( find_overlaps(intervals) )  # Output: [[1, 6], [8,10], [15,18]]
+print( find_overlaps(intervals) )  
