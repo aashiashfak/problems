@@ -5,7 +5,6 @@ def find_overlaps (intervals):
     if l == 0:
         return []
     intervals.sort(key=lambda x: x[0])
-
     overlaps = []
     start , end = intervals[0]
 

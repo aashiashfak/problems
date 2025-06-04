@@ -4,7 +4,7 @@ freq = {}
 
 for i in text:
     if i.isalpha():
-        lower_i =  i.lower()
+        lower_i = i.lower()
         if lower_i not in freq:
             freq[lower_i] = 1
         else:
@@ -16,4 +16,4 @@ for v in freq.values():
         top_value = v
 print(f"top_value : {top_value}")
 results = [k for k, v in freq.items() if v == top_value]
-print("highest frequency letters : ", ', '.join(results))
+print("highest frequency letters : ", ", ".join(results))

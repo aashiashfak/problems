@@ -1,4 +1,4 @@
-word = "Hello "
+word = "Hello S"
 
 upper = 0
 lower = 0
