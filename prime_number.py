@@ -1,4 +1,6 @@
 arr = [2, 5, 67, 7, 1, 4, 6]
+
+
 def find_prime(arr):
 
     for i in range(len(arr)):
