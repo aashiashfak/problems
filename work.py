@@ -70,11 +70,14 @@
 # print(longest_consecutive(arr))
 
 
-word = "HAPPYp"
+# word = "HAPPYp"
 
-freq = {}
+# freq = {}
 
-for i in word.lower():
-    freq[i] = freq.get(i, 0) + 1
-    
-print(freq)
+# for i in word.lower():
+#     freq[i] = freq.get(i, 0) + 1
+
+# print(freq)
+
+
+
